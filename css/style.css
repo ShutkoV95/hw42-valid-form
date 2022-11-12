@@ -1,0 +1,81 @@
+:root {
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+}
+
+input,
+label,
+button {
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button[disabled] {
+    background: grey;
+}
+
+button {
+    padding: 10px;
+    background: #a2c3a2;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+
+}
+
+.form {
+    border: 1px solid silver;
+    padding: 10px;
+    position: absolute;
+
+}
+.form__item {
+    display: flex;
+    border: 1px solid silver;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+.form__item span {
+    width: 100px;
+
+}
+
+.errorInfo {
+    color: red;
+    display: none;
+    position: relative;
+
+
+}
+
+.errorInfo__name {
+    left: 400px;
+    bottom: 130px;
+    
+}
+.errorInfo__phone {
+
+    left: 400px;
+    bottom: 100px;
+}
+
+.form__item input {}
